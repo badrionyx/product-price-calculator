@@ -59,8 +59,10 @@ hr {
 }
 
 button{
-    border: none;
-    border-radius: 8px;
+    background-color: blueviolet;
+    height: 40px;
+    width: 70px;
+    border-radius: 8px; 
     cursor: pointer;
 }
 
