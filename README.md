@@ -1,8 +1,15 @@
-This a Frontend Billing App which was used to calculate the items which was added in the cart.
+# Product Price Calculator
 
-TECH STACK:
-===============
-=> HTML
-=> CSS
-=> JAVA SCRIPT
+A simple web application that allows users to enter product quantities and calculate the total bill instantly. Built using HTML, CSS, and JavaScript with a clean and responsive user interface.
 
+## Features
+- Calculate total product cost
+- Quantity-based billing
+- Reset functionality
+- Responsive UI design
+- Beginner-friendly JavaScript project
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
