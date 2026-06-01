@@ -8,9 +8,6 @@
 body{
     min-height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     background: linear-gradient(
         135deg,
@@ -21,10 +18,12 @@ body{
 }
 
 .outer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:30px;
+
+    padding:40px;
 }
 
 .inner{
@@ -75,11 +74,6 @@ body{
     object-fit: contain;
 }
 
-.pro label{
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-}
 
 .pro input{
     width: 70px;
@@ -114,9 +108,21 @@ button{
     transition: 0.3s;
 }
 
-#cal{
-    background-color: #00c853;
-    color: white;
+.calculator{
+    flex:1;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.3);
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
 }
 
 #ref{
@@ -141,4 +147,73 @@ button:hover{
 #tot{
     color: #ffe600;
     font-weight: bold;
+}
+
+
+.details{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.details h4{
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.details p{
+    color: #666;
+    font-weight: 600;
+}
+
+.receipt{
+    width:350px;
+    min-height:500px;
+
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(12px);
+
+    border-radius:20px;
+    padding:20px;
+
+    color:white;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.3);
+}
+
+.receipt h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#receiptBox{
+    line-height:2;
+    font-size:18px;
+}
+.item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:10px;
+}
+
+.qty{
+    background:#2196f3;
+    color:white;
+
+    padding:3px 10px;
+    border-radius:12px;
+
+    font-size:14px;
+    font-weight:bold;
+}
+
+.grand-total{
+    text-align:center;
+    color:#ffe600;
+
+    font-size:24px;
+    font-weight:bold;
+
+    margin-top:15px;
 }
