@@ -8,7 +8,7 @@ A simple web application that allows users to enter product quantities and calcu
 - Quantity-based billing
 - Reset functionality
 - Responsive UI design
-- Beginner-friendly JavaScript project
+- Beginner-friendly JavaScript project with minimal styles.
 
 ## Technologies Used
 
