@@ -4,10 +4,10 @@ A simple web application that allows users to enter product quantities and calcu
 
 ## Features
 
-- Calculate total product cost
-- Quantity-based billing
-- Reset functionality
-- Responsive UI design
+- Calculate total product cost.
+- Quantity-based billing.
+- Reset functionality.
+- Responsive UI design.
 - Beginner-friendly JavaScript project with minimal styles.
 
 ## Technologies Used
