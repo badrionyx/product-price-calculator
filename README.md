@@ -1,4 +1,4 @@
-# Product Price Calculator
+**Product Price Calculator**
 
 A simple web application that allows users to enter product quantities and calculate the total bill instantly. Built using HTML, CSS, and JavaScript with a clean and responsive user interface.
 
