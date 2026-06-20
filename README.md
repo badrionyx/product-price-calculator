@@ -12,6 +12,6 @@ A simple web application that allows users to enter product quantities and calcu
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- HTML5.
+- CSS3.
+- JavaScript (ES6).
